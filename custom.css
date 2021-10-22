@@ -1,0 +1,591 @@
+.vp {
+    top: 50%;
+    left: 50%;
+}
+
+.voiplu{
+    position: absolute;
+    width: 13px;
+    transform-origin:left;
+    
+}
+
+.vplus1{
+    animation: scal 1s ease 1 forwards;
+}
+
+.vp{
+    position: absolute;
+    left: 3.5vw;
+    top: 0;
+    z-index: 2;
+}
+
+#voip{
+    position: absolute;
+    left: 4.5vw;
+    height: 24px;
+    width: 1px;
+    object-fit: none;
+    transform-origin:left;
+    z-index: 0;
+}
+
+.vp:hover {
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s ease 1 forwards;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        transform: translate(5vw, 0);
+    }
+}
+
+@keyframes scal {
+    100% {
+        transform: scaleX(4700%);
+    }
+}
+
+
+/*0.6s temps d'apparission animation*/
+
+.carousel-inner.vertical > .item {
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    -moz-transition: -webkit-transform .6s ease-in-out;
+    -o-transition: -o-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+}
+
+/*change verticalement pour prev et next*/
+.carousel-inner.vertical > .item.next,
+.carousel-inner.vertical > .item.active.right {
+    -webkit-transform: translate3d(0, 33.33%, 0);
+    -moz-transform: translate3d(0, 33.33%, 0);
+    transform: translate3d(0, 33.33%, 0);
+    top: 0px;
+}
+
+.carousel-inner.vertical > .item.prev,
+.carousel-inner.vertical > .item.active.left {
+    -webkit-transform: translate3d(0, -33.33%, 0);
+    -moz-transform: translate3d(0, -33.33%, 0);
+    transform: translate3d(0, -33.33%, 0);
+    top: 0px;
+}
+
+
+.carousel-inner.vertical > .item.next.left,
+.carousel-inner.vertical > .item.prev.right,
+.carousel-inner.vertical > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    top: 0px;
+}
+
+
+.carousel-inner.vertical > .next,
+.carousel-inner.vertical > .prev {
+    height: 100%;
+    width: auto;
+}
+
+/*style et postion boutton*/
+#carousel-pager .carousel-control.left,
+#carousel-pager .carousel-control.right {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    opacity: 1;
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#carousel-pager .carousel-control.right {
+    top: unset;
+    bottom: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left .glyphicon,
+.right .glyphicon {
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    color: black;
+}
+
+.right .glyphicon {
+    top: 15px;
+    left: 15px;
+}
+
+
+.contenu {
+    /*margin: 5% 0 0 0;*/
+    /*background-color: #E6E6E6;*/
+    padding: 10% 1% 1% 0;
+    width: 100%;
+    /*border-radius: 10px;
+    border: 7px solid #0A9885;*/
+
+}
+
+
+.box {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.imgtaille {
+    width: 50vw;
+    max-width: none !important;
+
+}
+
+.img-responsive {
+    /*border-radius: 5px;*/
+    border: 2px solid black;
+
+}
+
+.textdesc {
+    margin: 0 25% 2% 25%;
+    padding: 0;
+    max-width: 50%
+}
+
+.descImage p {
+    font-size: 2vh;
+}
+
+.descImage h1 {
+    font-weight: bold;
+    color: #0A9885;
+}
+
+.descImage h2 {
+    font-weight: bold;
+}
+
+.voirPlus {
+    /*display: flex;
+    justify-content: flex-end;
+    margin-top: 7%;*/
+}
+
+/*---------------------------BUTTONCV---------------------------------------------------------*/
+.attachments-icon {
+    transition: all 0.4s ease;
+}
+
+/* Initial State */
+.attachments-icon .document-container {
+    transform-origin: 43.32px 28.79px;
+    /* transform-origin: center center;
+      Use Pixels instead for Firefox Bug */
+    transform: translate(0, 0) rotate(12deg);
+    transition: all 0.4s ease;
+}
+
+.attachments-icon .photo-1-container {
+    transform-origin: 15.1px 43.71px;
+    transform: translate(0, 0) rotate(-11deg);
+    transition: all 0.4s ease;
+}
+
+.attachments-icon .photo-2-container {
+    transform-origin: 19.17px 23.01px;
+    transform: translate(0, 0) rotate(-3deg);
+    transition: all 0.4s ease;
+}
+
+/* Hover State */
+.attachments-button:hover .document-container {
+    transform: translate(-7.46px, 1.56px) rotate(22deg);
+}
+
+.attachments-button:hover .photo-1-container {
+    transform: translate(5.18px, -4.3px) rotate(-16deg);
+}
+
+.attachments-button:hover .photo-2-container {
+    transform: translate(6.71px, 5.16px) rotate(4deg);
+}
+
+/* Other Styling */
+.attachments-button {
+    width: 11vw;
+    height: 60px;
+    padding: 0 1% 9% 1%;
+    position: absolute;
+    top: 25vh;
+    left: 22vw;
+    background: #E6E6E6;
+    border-top: 1px solid #0A9885;
+    border-bottom: 1px solid #0A9885;
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 0.5s ease;
+}
+
+.attachments-button span {
+    display: block;
+    float: right;
+    font-family: "Avenir", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 65px;
+    color: #5c6374;
+}
+
+.attachments-button:hover span {
+    color: #0A9885;
+}
+
+
+
+
+
+
+/*---------------------------TIMELINE---------------------------------------------------------*/
+.colorTime {
+    color: #0A9885;
+    font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline {
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.timeline p {
+    font-size: 16px;
+}
+
+.timeline ol {
+    font-size: 0;
+    width: 100vw;
+    padding: 200px 0;
+    transition: all 1s;
+}
+
+.timeline ol li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    width: 160px;
+    height: 3px;
+    background: #84CBC2;
+}
+
+.timeline ol li:last-child {
+    width: 280px;
+}
+
+.timeline ol li:not(:first-child) {
+    margin-left: 14px;
+}
+
+.timeline ol li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 1px);
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #0A9885;
+}
+
+.timeline ol li div {
+    position: absolute;
+    left: calc(100% + 7px);
+    width: 280px;
+    height: 25vh !important;
+    padding: 15px;
+    font-size: 1rem;
+    white-space: normal;
+    color: black;
+    background: white;
+}
+
+.timeline ol li div::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+    top: -16px;
+    transform: translateY(-100%);
+}
+
+.timeline ol li:nth-child(odd) div::before {
+    top: 100%;
+    border-width: 8px 8px 0 0;
+    border-color: white transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(even) div {
+    top: calc(100% + 16px);
+}
+
+.timeline ol li:nth-child(even) div::before {
+    top: -8px;
+    border-width: 8px 0 0 8px;
+    border-color: transparent transparent transparent white;
+}
+
+.timeline time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+/* TIMELINE ARROWS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline .arrows {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.timeline .arrows .arrow__prev {
+    margin-right: 20px;
+}
+
+.timeline .disabled {
+    opacity: .5;
+}
+
+.timeline .arrows img {
+    width: 45px;
+    height: 45px;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 599px) {
+
+    .timeline ol,
+    .timeline ol li {
+        width: auto;
+    }
+
+    .timeline ol {
+        padding: 0;
+        transform: none !important;
+    }
+
+    .timeline ol li {
+        display: block;
+        height: auto;
+        background: transparent;
+    }
+
+    .timeline ol li:first-child {
+        margin-top: 25px;
+    }
+
+    .timeline ol li:not(:first-child) {
+        margin-left: auto;
+    }
+
+    .timeline ol li div {
+        width: 94%;
+        height: auto !important;
+        margin: 0 auto 25px;
+    }
+
+    .timeline ol li div {
+        position: static;
+    }
+
+    .timeline ol li:nth-child(odd) div {
+        transform: none;
+    }
+
+    .timeline ol li:nth-child(odd) div::before,
+    .timeline ol li:nth-child(even) div::before {
+        left: 50%;
+        top: 100%;
+        transform: translateX(-50%);
+        border: none;
+        border-left: 1px solid white;
+        height: 25px;
+    }
+
+    .timeline ol li:last-child,
+    .timeline ol li:nth-last-child(2) div::before,
+    .timeline ol li:not(:last-child)::after,
+    .timeline .arrows {
+        display: none;
+    }
+}
+
+
+/*-------------------------------------------------PLAYERVIDEO-----------------------------------------------------------------*/
+.wai {
+    height: 70vh;
+}
+
+.video-button,
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    --video-width: 80vw;
+
+}
+
+.video-button {
+    cursor: pointer;
+    clip-path: polygon(10% 20%, 50% 20%, 50% 80%, 10% 80%);
+    /* polygone petit*/
+    transition: 0.6s cubic-bezier(0.6, 0, 0.4, 1);
+}
+
+.video-button[data-aperture=open] {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    /*polygone grand*/
+}
+
+.video-container {
+    overflow: hidden;
+}
+
+.actual-video {
+    /*la video*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s linear;
+    transform: scale(1);
+}
+
+[data-aperture=open] .actual-video {
+    transform: scale(1.2);
+}
+
+.play-button__aperture--left {
+    /*polygone vert de gauche*/
+    position: absolute;
+    background: rgba(10, 152, 133, 0.9);
+    transition: 0.5s 0.1s cubic-bezier(0.6, 0, 0.4, 1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0% 0%, 20% 0%, 20% 100%, 0% 100%);
+}
+
+[data-aperture=open] .play-button__aperture--left {
+    transition-delay: 0s;
+}
+
+[data-aperture=open] .play-button__aperture--left {
+    clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+}
+
+.play-button__aperture--top-right {
+    /*polygone vert de droite haut*/
+    position: absolute;
+    background: rgba(10, 152, 133, 0.9);
+    transition: 0.5s 0.1s cubic-bezier(0.6, 0, 0.4, 1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(-20% 0%, 100% 0%, 80% 80%);
+}
+
+[data-aperture=open] .play-button__aperture--top-right {
+    transition-delay: 0s;
+}
+
+[data-aperture=open] .play-button__aperture--top-right {
+    clip-path: polygon(100% 0%, 100% 0%, 100% 0%);
+}
+
+.play-button__aperture--bottom-right {
+    /*polygone vert de droite bas*/
+    position: absolute;
+    background: rgba(10, 152, 133, 0.9);
+    transition: 0.5s 0.1s cubic-bezier(0.6, 0, 0.4, 1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(-20% 100%, 100% 100%, 80% 20%);
+}
+
+[data-aperture=open] .play-button__aperture--bottom-right {
+    transition-delay: 0s;
+}
+
+[data-aperture=open] .play-button__aperture--bottom-right {
+    clip-path: polygon(100% 100%, 100% 100%, 100% 100%);
+}
