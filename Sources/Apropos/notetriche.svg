@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 194 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2206.04,-2831.39)">
+        <g transform="matrix(1,0,0,1,1353.52,2391.28)">
+            <g transform="matrix(0.744014,0,0,0.904343,-897.678,-2095.56)">
+                <rect x="2352.37" y="2803.89" width="259.73" height="136.819" style="fill:white;fill-opacity:0.81;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,1353.52,2391.28)">
+            <g transform="matrix(0.372244,0.101831,-0.101831,0.372244,848.01,148.481)">
+                <g transform="matrix(0.553491,0,0,0.061244,-2445.51,706.536)">
+                    <circle cx="5547" cy="2747.26" r="67.812" style="fill:rgb(10,152,133);"/>
+                </g>
+                <g transform="matrix(0.553491,0,0,0.061244,-2445.51,723.586)">
+                    <circle cx="5547" cy="2747.26" r="67.812" style="fill:rgb(10,152,133);"/>
+                </g>
+                <g transform="matrix(0.598573,0,0,0.128434,-2695.43,561.073)">
+                    <path d="M5547,2679.45C5584.43,2679.45 5602.49,2680.54 5602.49,2717.96C5602.49,2755.39 5584.43,2815.07 5547,2815.07C5509.57,2815.07 5491.01,2753.05 5491.01,2715.62C5491.01,2678.19 5509.57,2679.45 5547,2679.45Z" style="fill:rgb(10,152,133);"/>
+                </g>
+                <path d="M575.569,817.02C562.581,804.116 554.519,786.144 554.519,766.279C554.519,727.045 585.969,695.192 624.706,695.192C663.444,695.192 694.893,727.045 694.893,766.279C694.893,783.888 688.559,800.01 678.074,812.432L678.097,812.579C671.025,823.047 666.919,835.512 666.919,848.886C666.919,853.38 666.541,860.23 666.248,864.327L584.969,864.327C585.569,860.803 583.994,852.573 583.994,848.886C583.994,837.356 580.942,826.501 575.569,817.02Z" style="fill:rgb(10,152,133);fill-opacity:0.31;"/>
+                <path d="M580.682,765.705C580.682,773.905 574.098,769.589 574.098,757.552C574.098,731.905 597.147,711.083 625.537,711.083C644.615,711.083 647.189,719.235 632.122,719.235C603.732,719.235 580.682,740.057 580.682,765.705Z" style="fill:rgb(10,152,133);"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,1353.52,2391.28)">
+            <g transform="matrix(1.33307,0,0,1.33307,801.426,380.428)">
+                <text x="49.722px" y="62.472px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">Appuies <tspan x="101.418px " y="62.472px ">s</tspan>ur <tspan x="126.418px 134.749px " y="62.472px 62.472px "> l</tspan>es</text>
+                <text x="49.722px" y="74.865px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">p<tspan x="56.652px 59.575px 65.832px 69.423px 76.353px 83.284px 87.536px 94.467px 104.72px 114.972px 121.903px " y="74.865px 74.865px 74.865px 74.865px 74.865px 74.865px 74.865px 74.865px 74.865px 74.865px 74.865px ">ictogrammes</tspan></text>
+                <text x="49.722px" y="87.258px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">pour <tspan x="77.789px " y="87.258px ">e</tspan>ntendre</text>
+                <text x="49.722px" y="99.65px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">d<tspan x="59.327px 64.924px 77.196px 86.801px 93.729px 103.334px 112.938px 119.204px " y="99.65px 99.65px 99.65px 99.65px 99.65px 99.65px 99.65px 99.65px ">iﬀérents</tspan></text>
+                <text x="49.722px" y="112.043px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">sons</text>
+            </g>
+        </g>
+    </g>
+</svg>
