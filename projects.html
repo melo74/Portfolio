@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mélodie Corbeau | Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/24b33c83c1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav id="header">
+        <ul class="main-nav">
+            <li><a style="color:#D5955B; font-size: 1.3em; font-weight: bold; opacity: 1;" href="index.html">Mélodie
+                    Corbeau</a></li>
+            <li class="push"><a href="index.html#about">Qui suis-je ?</a></li>
+            <li><a href="projects.html">Galerie</a></li>
+            <li style="margin-right: 5%;"><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"
+                aria-hidden="true"></i></button>
+        <section>
+            <h2 class="titredesection">Galerie</h2>
+            <div class="categorie">
+                <button id="tous" class="lesboutons btnSelector" data-btn="tous">Tous</button>
+                <button id="troisD" class="lesboutons" data-btn="3D">3D</button>
+                <button id="CM" class="lesboutons" data-btn="CM">Community management</button>
+                <button id="Graph" class="lesboutons" data-btn="Graph">Graphisme</button>
+                <button id="PAO" class="lesboutons" data-btn="PAO">PAO</button>
+                <button id="Photo" class="lesboutons" data-btn="Photo">Photographie</button>
+                <button id="Prog" class="lesboutons" data-btn="Prog">Programation</button>
+                <button id="Video" class="lesboutons" data-btn="Video">Vidéo</button>
+            </div>
+            <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+                <div style="display: flex; margin: 2%;" class="a divCM">
+                    <a href="pagesGalerie/masculinboutiques.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Masculin</h3>
+                                <p style="color: #FBEBAA;">CM</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="https://source.unsplash.com/1000x801" alt="Mockup présentation du projet Masculin" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a divPAO">
+                    <a href="pagesGalerie/TechnoAddict.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Techno Addict</h3>
+                                <p style="color: #FBEBAA;">PAO</p>
+                            </div>
+                            <div id="img-container"><img class="a img-bottom" style="border-radius: 5%;"
+                                    src="Sources/TechnoAddict/rm355-pf-card-magazine-01-mockup.png" alt="Mockup présentation du projet TechnoAddict" />
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a divVideo">
+                    <a href="pagesGalerie/TPWALW.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">TPWALW</h3>
+                                <p style="color: #FBEBAA;">Video</p>
+                            </div>
+                            <div id="img-container"><img class="a img-bottom" style="border-radius: 5%;"
+                                    src="Sources/tpwalw/tpwalw.jpg" alt="Mockup présentation du projet Le problème avec lequel nous vivons tous" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a divPAO">
+                    <a href="pagesGalerie/ComplotMag.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Complot Mag</h3>
+                                <p style="color: #FBEBAA;">PAO</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/complotmag/31.png" alt="Mockup présentation du projet Complot magazine" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a div3D">
+                    <a href="pagesGalerie/astrobot.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Astro Bot</h3>
+                                <p style="color: #FBEBAA;">3D</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/Astrobot/astrobot.png" alt="Mockup présentation du projet Astrobot" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a div3D">
+                    <a href="pagesGalerie/mesvinyles.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">mesvinyles.fr</h3>
+                                <p style="color: #FBEBAA;">3D</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/mesvyniles/mesvynilesresultat.png" alt="Mockup présentation du projet mes vyniles.fr" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a divVideo">
+                    <a href="pagesGalerie/wordasimage.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Word as image</h3>
+                                <p style="color: #FBEBAA;">Vidéo</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/wordasimage/plancheTrounoir.png" alt="Mockup présentation du projet Word ad image" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a divProg">
+                    <a href="pagesGalerie/dackira.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Dackira</h3>
+                                <p style="color: #FBEBAA;">web</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/dackira/ordiDack.png" alt="Mockup présentation du projet Dackira" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a divPhoto">
+                    <a href="pagesGalerie/restaurationphoto.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Avant / Après</h3>
+                                <p style="color: #FBEBAA;">photo</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/restaurationphoto/photomockup.png" alt="Mockup présentation du projet RAvant / Après" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a divGraph">
+                    <a href="pagesGalerie/dataviz.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">NASA</h3>
+                                <p style="color: #FBEBAA;">dataviz</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/Dataviz/mockup.png" alt="Mockup présentation du projet NASA - Dataviz" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a divPhoto">
+                    <a href="pagesGalerie/photos.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Photo</h3>
+                                <p style="color: #FBEBAA;">photo</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/Photos/mockup1.png" alt="Mockup présentation du projet Photo" /></div>
+                        </div>
+                    </a>
+                </div>
+                <div style="display: flex; margin: 2%;" class="a divPAO">
+                    <a href="pagesGalerie/book.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Book</h3>
+                                <p style="color: #FBEBAA;">PAO</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/book/mockup1.png" alt="Mockup présentation du projet mon book professionel" /></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div style="display: flex; margin: 2%;" class="a divProg">
+                    <a href="pagesGalerie/cherbourgtourisme.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Cherbourg</h3>
+                                <p style="color: #FBEBAA;">Web</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/cherbourg/cherbourg.png" alt="Mockup présentation du projet Cherbourg Tourisme" /></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div style="display: flex; margin: 2%;" class="a divPAO">
+                    <a href="pagesGalerie/memoireprofessionel.html">
+                        <div class="divParent" width="100%" height="350px"
+                            style="background-color: #D5955B; border-radius: 5%;">
+                            <div
+                                style="position: absolute; display: flex; justify-content: space-around; width: 350px;">
+                                <h3 style="color: white; font-size: 40px; margin: 10px 0;">Mémoire</h3>
+                                <p style="color: #FBEBAA;">PAO</p>
+                            </div>
+                            <div id="img-container"><img class="img-bottom" style="border-radius: 5%;"
+                                    src="Sources/memoire/mockup1.png" alt="Mockup présentation du projet Mémoire professionel" /></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p style="font-size: 50px;">&#169; Mélodie Corbeau | 2023 | <a href="#">Mentions legales</a></p>
+
+
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+
+
+</html>
